@@ -1,0 +1,13 @@
+{
+  "name": "palm-note-website",
+  "version": "0.0.1",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "foundation": "~5.4.0",
+    "animate.css": "~3.2.0",
+    "devices.css": "*"
+  }
+}
