@@ -1,0 +1,14 @@
+Options +FollowSymLinks -Indexes
+
+IndexIgnore *
+
+DirectoryIndex 
+    
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+
+# Simple URL redirect:
+RewriteRule ^(.*)$ http://ucm.hosting.acm.org:61079/blog/$1 [P]
+
+</IfModule>
